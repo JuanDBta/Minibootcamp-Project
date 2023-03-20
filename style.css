@@ -1,0 +1,31 @@
+.search-container {
+    display: flex;
+    align-items: center;
+        
+    
+  }
+  
+  img {
+    width: 150px;
+    margin-right: 50px;
+  }
+
+  .search-box
+  {
+margin-left: 3cm;
+height: 40px;
+width: 600px;
+font-size: xx-large;
+  }
+
+  .button
+  {
+    height: 47px;
+    font-size: larger;
+  }
+
+  #username
+  {
+   margin-left: 3cm; 
+   width: 60px;
+  }

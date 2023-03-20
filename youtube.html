@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,9 +12,14 @@
   <body>
     <form>
       <div class="search-container">
-        <img src="C:\Users\juand\OneDrive\Escritorio\Microverse\Projects\MINIBOOTCAMP PROJECT\Minibootcamp-Project\images\Youtube logo.gif>
-        <input type="text" placeholder="Search">
-        <button type="submit">Search</button>
+        <a href="https://youtube.com" target="_blank">
+        <img src="images\Youtube logo.gif"></a>
+        <input type="text" class="search-box" placeholder="Search">
+        <button type="submit" class="button">Go!</button>
+        <form action="submission.html" method="GET">
+        <input id="username" name="username" type="text" placeholder="Username" required minlength="3" maxlength="10">
+        <input type="submit" value="Sign In">
+        </form>
       </div> 
 
     </form>
