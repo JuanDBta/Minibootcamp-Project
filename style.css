@@ -29,3 +29,22 @@ font-size: xx-large;
    margin-left: 3cm; 
    width: 60px;
   }
+
+  #main-video
+  {
+    margin-top: 1cm;
+    margin-left: 3cm;
+    float: left;
+  }
+
+#video-list {
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 20px;
+}
+
+#video-list-style
+{
+  list-style: none;
+}

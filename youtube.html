@@ -10,21 +10,36 @@
     
   </head>
   <body>
-    <form>
+    
       <div class="search-container">
         <a href="https://youtube.com" target="_blank">
         <img src="images\Youtube logo.gif"></a>
-        <input type="text" class="search-box" placeholder="Search">
+        <input type="text" class="search-box" placeholder="Type a video...">
         <button type="submit" class="button">Go!</button>
         <form action="submission.html" method="GET">
         <input id="username" name="username" type="text" placeholder="Username" required minlength="3" maxlength="10">
         <input type="submit" value="Sign In">
         </form>
       </div> 
+     
+    <div id="main-video">
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p id="Video-name">Contributing to Open Source Part I: The Easy Way</p> 
+       <textarea id="Comments" name="Comments" placeholder="Type your comments..." rows="2" cols="93"></textarea>
+    </div>
 
-    </form>
-    
+    <div id="video-list">
+      <h2>   Playlists</h2>
+    <ul id="video-list-style">
+        <li><a href="https://youtu.be/EpMLAQbSYAw"><img src="images/age.jpg"></a>Age of Easy Money</li>
+        <li><a href="https://www.youtube.com/live/sT1KpjKbsTk?feature=share"><img src="images/Ibiza.jpg"></a>Ibiza Mix</li>
+        <li><a href="https://youtu.be/YgYacjZcu20"><img src="images/Retro.jpg"></a>Vintage Café - Retro</li>
+        <li><a href="https://youtu.be/aksGa6SZVNc"><img src="images/Lounge.jpg"></a>Vintage Lounge 80's</li>
+    </ul>
+      
 
+    </div>
+ 
 
 
   </body>
